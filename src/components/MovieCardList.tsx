@@ -1,6 +1,6 @@
 import { SimpleGrid, Alert, Text } from "@mantine/core";
 import { useAsyncValue, useSearchParams } from "react-router-dom";
-import type { Movie, SearchResult } from "../pages/MovieList/MovieList";
+import type { Movie, SearchResult } from "../pages/MovieList";
 import MovieCard from "./MovieCard";
 import { useState } from "react";
 

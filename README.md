@@ -3,7 +3,7 @@
 Responsive movie application using React.
 By using React router and fetch API, data loading and app routing were supported.
 Reducer was used in managing state for localStorage.
-Mantine UI was used as design tool.
+Mantine UI and react-icons was used as design tool.
 
 # Features
 

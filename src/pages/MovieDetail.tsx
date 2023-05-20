@@ -14,10 +14,10 @@ import {
 import { MdFavoriteBorder, MdOpenInNew, MdStars } from "react-icons/md";
 import { redirect, useLoaderData } from "react-router-dom";
 import type { LoaderFunctionArgs } from "react-router-dom";
-import CardList from "../../components/CardList";
-import useFavorites from "../../util/useFavorites";
-import useStyles from "../../util/useStyles";
-import { getMovieByID } from "../../api/movie";
+import CardList from "../components/CardList";
+import useFavorites from "../util/useFavorites";
+import useStyles from "../util/useStyles";
+import { getMovieByID } from "../api/movie";
 
 // data type
 type Movie = {

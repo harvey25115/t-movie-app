@@ -1,6 +1,6 @@
 import { Text, Card, Group, Image, Badge } from "@mantine/core";
 import { Link } from "react-router-dom";
-import type { Movie } from "../pages/MovieList/MovieList";
+import type { Movie } from "../pages/MovieList";
 
 // component props type
 type MovieCardI = {

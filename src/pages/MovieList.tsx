@@ -13,10 +13,10 @@ import {
 import { MdStarRate } from "react-icons/md";
 import { defer, Await, useLoaderData } from "react-router-dom";
 import type { LoaderFunctionArgs } from "react-router-dom";
-import MovieCardList from "../../components/MovieCardList";
-import useFavorites from "../../util/useFavorites";
-import useStyles from "../../util/useStyles";
-import { getMovieList } from "../../api/movie";
+import MovieCardList from "../components/MovieCardList";
+import useFavorites from "../util/useFavorites";
+import useStyles from "../util/useStyles";
+import { getMovieList } from "../api/movie";
 
 // data type
 export type Movie = {

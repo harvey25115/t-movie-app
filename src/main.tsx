@@ -6,13 +6,9 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
  * components
  */
 import Layout from "./components/Layout.tsx";
-import MovieList, {
-  loader as movieListLoader,
-} from "./pages/MovieList/MovieList.tsx";
-import MovieDetail, {
-  loader as movieLoader,
-} from "./pages/MovieDetail/MovieDetail.tsx";
-import NotFound from "./pages/NotFound/NotFound.tsx";
+import MovieList, { loader as movieListLoader } from "./pages/MovieList.tsx";
+import MovieDetail, { loader as movieLoader } from "./pages/MovieDetail.tsx";
+import NotFound from "./pages/NotFound.tsx";
 
 // // router path
 const router = createBrowserRouter([
